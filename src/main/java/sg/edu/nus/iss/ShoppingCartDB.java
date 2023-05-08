@@ -33,6 +33,8 @@ public class ShoppingCartDB {
                 cart.add(line);
                 pos++;
             }
+            br.close();
+            fr.close();
         } else {
             System.out.printf("%s, your cart is empty\n", userName);
         }
